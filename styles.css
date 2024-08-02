@@ -3,6 +3,7 @@ body {
     background-color: #f4f4f4;
     margin: 0;
     padding: 20px;
+    
 }
 
 .container {
@@ -11,11 +12,16 @@ body {
     padding: 40px;
     background-color: white;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
 }
 
 h1 {
     text-align: center;
     color: #333;
+}
+
+hr {
+  border-bottom: 1px solid #f9f9f9;
 }
 
 .question {
@@ -31,6 +37,7 @@ label {
 .choices {
     display: flex;
     justify-content: space-between;
+    margin-top: 20px;
 }
 
 .choices label {
