@@ -43,6 +43,9 @@ document.getElementById('assessmentForm').addEventListener('submit', function(ev
 
     document.getElementById('assessmentForm').style.display = 'none';
     document.getElementById('results').style.display = 'block';
+
+    // Scroll results section into view
+    document.getElementById('results').scrollIntoView({ behavior: 'smooth', block: 'center' });
 });
 
 function retakeTest() {
